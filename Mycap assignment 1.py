@@ -5,6 +5,8 @@
 
 
 Filename = input("Input the file name ")
+f_extns = Filename.split(".")
+print ("The extension of the file is : " + repr(f_extns[-1]))
 x= ".py"
 y= ".java"
 z= ".c"
